@@ -18,7 +18,7 @@ function App() {
   
     if (location) {
       try {
-        const response = await axios.get("http://192.168.0.120:5000/route", {
+        const response = await axios.get("https://nearby-services-finder.onrender.com/route", {
           params: {
             startLat: location.lat,
             startLng: location.lng,
